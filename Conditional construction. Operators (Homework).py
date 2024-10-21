@@ -32,7 +32,7 @@ third = int(input("Введите третье число... - "))
 if first == second and first == third:   # Для создания условия используем оператора if, после которого само условие
     sleep(2)
     print("Все три числа равны, хорошая работа!!! *** ")
-elif first == second or first == third or second == third:  # elif # чтобы при выполнении одного из условий
+elif first == second or first == third and second == third:  # elif # чтобы при выполнении одного из условий
     # компьютер не проверял остальные.
     sleep(2)
     print("Всего два числа равны между собой. Еще разок ? **")
